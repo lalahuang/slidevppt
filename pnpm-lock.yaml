@@ -6,12 +6,14 @@ specifiers:
   '@slidev/theme-default': '*'
   '@slidev/theme-seriph': '*'
   playwright-chromium: ^1.25.1
+  slidev-theme-hpenguin: ^0.0.0-development
   slidev-theme-penguin: ^1.4.1
 
 dependencies:
   '@slidev/cli': 0.35.5_playwright-chromium@1.25.1
   '@slidev/theme-default': 0.21.2
   '@slidev/theme-seriph': 0.21.3
+  slidev-theme-hpenguin: 0.0.0-development
   slidev-theme-penguin: 1.4.1
 
 devDependencies:
@@ -2594,6 +2596,14 @@ packages:
 
   /sisteransi/1.0.5:
     resolution: {integrity: sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==}
+    dev: false
+
+  /slidev-theme-hpenguin/0.0.0-development:
+    resolution: {integrity: sha512-qRY7KsOuHdc2njcq0WhBCiYmWLBXjP/VdBSqvfmX26dVBCjRkbiKVfARnlfxPaqeGN133bhVDGhXNJjiJ6grsw==}
+    dependencies:
+      '@slidev/types': 0.30.3
+      prism-theme-vars: 0.2.4
+      vite-svg-loader: 3.4.0
     dev: false
 
   /slidev-theme-penguin/1.4.1:

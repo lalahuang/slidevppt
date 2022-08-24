@@ -1,5 +1,5 @@
 ---
-theme: 'penguin'
+theme: 'hpenguin'
 colorSchema: 'auto'
 layout: intro
 fonts:
