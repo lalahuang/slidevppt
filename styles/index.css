@@ -1,0 +1,18 @@
+
+
+.slidev-layout ul {
+    list-style: none;
+    li{
+        margin-left: 0;
+        padding-left:0;
+    }
+}
+
+.bg-main{
+    background-image: -o-linear-gradient(left, var(--tw-gradient-stops));
+        background-image: -webkit-gradient(linear, left top, right top, from(var(--tw-gradient-stops)));
+        background-image: linear-gradient(to right, var(--tw-gradient-stops));
+        --tw-gradient-from: rgba(255, 255, 255, var(--tw-from-opacity, 1));
+        --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+        --tw-gradient-to: rgba(241, 252, 248, var(--tw-to-opacity, 1));
+}
